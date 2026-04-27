@@ -1,0 +1,137 @@
+[0.000000] (-) TimerEvent: {}
+[0.002873] (demo_python_pkg) JobQueued: {'identifier': 'demo_python_pkg', 'dependencies': OrderedDict()}
+[0.003770] (shoot_goal) JobQueued: {'identifier': 'shoot_goal', 'dependencies': OrderedDict()}
+[0.005528] (demo_python_pkg) JobStarted: {'identifier': 'demo_python_pkg'}
+[0.102557] (-) TimerEvent: {}
+[0.116908] (shoot_goal) JobStarted: {'identifier': 'shoot_goal'}
+[0.202966] (-) TimerEvent: {}
+[0.305326] (-) TimerEvent: {}
+[0.408478] (-) TimerEvent: {}
+[0.509569] (-) TimerEvent: {}
+[0.610761] (-) TimerEvent: {}
+[0.711679] (-) TimerEvent: {}
+[0.812707] (-) TimerEvent: {}
+[0.913768] (-) TimerEvent: {}
+[1.014870] (-) TimerEvent: {}
+[1.116665] (-) TimerEvent: {}
+[1.217895] (-) TimerEvent: {}
+[1.319016] (-) TimerEvent: {}
+[1.419996] (-) TimerEvent: {}
+[1.521014] (-) TimerEvent: {}
+[1.622057] (-) TimerEvent: {}
+[1.722994] (-) TimerEvent: {}
+[1.824053] (-) TimerEvent: {}
+[1.926438] (-) TimerEvent: {}
+[2.037747] (-) TimerEvent: {}
+[2.140030] (-) TimerEvent: {}
+[2.241290] (-) TimerEvent: {}
+[2.342558] (-) TimerEvent: {}
+[2.443588] (-) TimerEvent: {}
+[2.544598] (-) TimerEvent: {}
+[2.645596] (-) TimerEvent: {}
+[2.746667] (-) TimerEvent: {}
+[2.847651] (-) TimerEvent: {}
+[2.949012] (-) TimerEvent: {}
+[3.050139] (-) TimerEvent: {}
+[3.151112] (-) TimerEvent: {}
+[3.252088] (-) TimerEvent: {}
+[3.353057] (-) TimerEvent: {}
+[3.454184] (-) TimerEvent: {}
+[3.555262] (-) TimerEvent: {}
+[3.661367] (-) TimerEvent: {}
+[3.764447] (-) TimerEvent: {}
+[3.867433] (-) TimerEvent: {}
+[3.968350] (-) TimerEvent: {}
+[4.069256] (-) TimerEvent: {}
+[4.170235] (-) TimerEvent: {}
+[4.271174] (-) TimerEvent: {}
+[4.372097] (-) TimerEvent: {}
+[4.473084] (-) TimerEvent: {}
+[4.574190] (-) TimerEvent: {}
+[4.675094] (-) TimerEvent: {}
+[4.776040] (-) TimerEvent: {}
+[4.877547] (-) TimerEvent: {}
+[4.979017] (-) TimerEvent: {}
+[5.080369] (-) TimerEvent: {}
+[5.182602] (-) TimerEvent: {}
+[5.284248] (-) TimerEvent: {}
+[5.386081] (-) TimerEvent: {}
+[5.487341] (-) TimerEvent: {}
+[5.589798] (-) TimerEvent: {}
+[5.691422] (-) TimerEvent: {}
+[5.792490] (-) TimerEvent: {}
+[5.809918] (shoot_goal) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/shoot_goal', 'build', '--build-base', '/home/mi/ros2_ws/build/shoot_goal/build', 'install', '--prefix', '/home/mi/ros2_ws/install/shoot_goal', '--record', '/home/mi/ros2_ws/build/shoot_goal/install.log', '--single-version-externally-managed'], 'cwd': '/home/mi/ros2_ws/src/shoot_goal', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://127.0.0.1:7890', 'MAIL': '/var/mail/mi', 'USER': 'mi', 'SSH_CLIENT': '10.0.0.39 51671 22', 'no_proxy': 'localhost,127.0.0.1,::1', 'all_proxy': 'socks5h://127.0.0.1:7891', 'GIT_ASKPASS': '/home/mi/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/extensions/git/dist/askpass.sh', 'LD_LIBRARY_PATH': '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros2/galactic/opt/yaml_cpp_vendor/lib:/opt/ros2/galactic/opt/rviz_ogre_vendor/lib:/opt/ros2/galactic/lib:/opt/ros2/cyberdog/lib', 'BROWSER': '/home/mi/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/bin/helpers/browser.sh', 'SHLVL': '3', 'OLDPWD': '/home/mi/ros2_ws/src', 'CYCLONEDDS_URI': 'file:///etc/mi/cyclonedds.xml', 'HOME': '/home/mi', 'TERM_PROGRAM_VERSION': '1.98.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-90473710-63b8-44b6-8ee8-14ffc075a05e.sock', 'NO_PROXY': 'localhost,127.0.0.1,::1', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mi/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/extensions/git/dist/askpass-main.js', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_NODE': '/home/mi/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/mi/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'https_proxy': 'http://127.0.0.1:7890', 'COLCON_PREFIX_PATH': '/home/mi/ros2_ws/install:/home/mi/vrpn_client_ros2/src/install:/opt/ros2/cyberdog:/opt/ros2/galactic', 'ROS_DISTRO': 'galactic', 'ALL_PROXY': 'socks5h://127.0.0.1:7891', 'LOGNAME': 'mi', 'http_proxy': 'http://127.0.0.1:7890', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros2/galactic/lib/aarch64-linux-gnu/pkgconfig:/opt/ros2/galactic/lib/pkgconfig', 'XDG_SESSION_ID': '8', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros2/cyberdog/bin:/home/mi/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/bin/remote-cli:/opt/ros2/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mi/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/mi/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-51963532bc1bd2a7.txt', 'PYTHONSTARTUP': '/home/mi/.vscode-server/data/User/workspaceStorage/45c8a7a9667d8426d89a2a113f9d2b2e/ms-python.python/pythonrc.py', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-7c93f87e08.sock', 'AMENT_PREFIX_PATH': '/home/mi/ros2_ws/install/shoot_goal:/home/mi/ros2_ws/install/demo_python_pkg:/home/mi/vrpn_client_ros2/src/install/vrpn_listener:/opt/ros2/cyberdog:/opt/ros2/galactic', 'ROS_DOMAIN_ID': '42', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CMAKE_MODULE_PATH': '/opt/ros2/cyberdog/share/cyberdog_parameter/cmake', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mi/ros2_ws/build/shoot_goal', 'SSH_CONNECTION': '10.0.0.39 51671 10.0.0.67 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'HTTP_PROXY': 'http://127.0.0.1:7890', 'PYTHONPATH': '/home/mi/ros2_ws/install/shoot_goal/lib/python3.6/site-packages:/home/mi/ros2_ws/install/shoot_goal/lib/python3.6/site-packages:/home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages:/opt/ros2/cyberdog/lib/python3.6/site-packages:/opt/ros2/galactic/lib/python3.6/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/mi/vrpn_client_ros2/src/install/vrpn_listener:/opt/ros2/cyberdog:/opt/ros2/galactic'}, 'shell': False}
+[5.892955] (-) TimerEvent: {}
+[5.995020] (-) TimerEvent: {}
+[6.031515] (demo_python_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/demo_python_pkg', 'build', '--build-base', '/home/mi/ros2_ws/build/demo_python_pkg/build', 'install', '--prefix', '/home/mi/ros2_ws/install/demo_python_pkg', '--record', '/home/mi/ros2_ws/build/demo_python_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/mi/ros2_ws/src/demo_python_pkg', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://127.0.0.1:7890', 'MAIL': '/var/mail/mi', 'USER': 'mi', 'SSH_CLIENT': '10.0.0.39 51671 22', 'no_proxy': 'localhost,127.0.0.1,::1', 'all_proxy': 'socks5h://127.0.0.1:7891', 'GIT_ASKPASS': '/home/mi/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/extensions/git/dist/askpass.sh', 'LD_LIBRARY_PATH': '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros2/galactic/opt/yaml_cpp_vendor/lib:/opt/ros2/galactic/opt/rviz_ogre_vendor/lib:/opt/ros2/galactic/lib:/opt/ros2/cyberdog/lib', 'BROWSER': '/home/mi/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/bin/helpers/browser.sh', 'SHLVL': '3', 'OLDPWD': '/home/mi/ros2_ws/src', 'CYCLONEDDS_URI': 'file:///etc/mi/cyclonedds.xml', 'HOME': '/home/mi', 'TERM_PROGRAM_VERSION': '1.98.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-90473710-63b8-44b6-8ee8-14ffc075a05e.sock', 'NO_PROXY': 'localhost,127.0.0.1,::1', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mi/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/extensions/git/dist/askpass-main.js', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_NODE': '/home/mi/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/mi/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'https_proxy': 'http://127.0.0.1:7890', 'COLCON_PREFIX_PATH': '/home/mi/ros2_ws/install:/home/mi/vrpn_client_ros2/src/install:/opt/ros2/cyberdog:/opt/ros2/galactic', 'ROS_DISTRO': 'galactic', 'ALL_PROXY': 'socks5h://127.0.0.1:7891', 'LOGNAME': 'mi', 'http_proxy': 'http://127.0.0.1:7890', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros2/galactic/lib/aarch64-linux-gnu/pkgconfig:/opt/ros2/galactic/lib/pkgconfig', 'XDG_SESSION_ID': '8', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros2/cyberdog/bin:/home/mi/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/bin/remote-cli:/opt/ros2/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mi/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/mi/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-51963532bc1bd2a7.txt', 'PYTHONSTARTUP': '/home/mi/.vscode-server/data/User/workspaceStorage/45c8a7a9667d8426d89a2a113f9d2b2e/ms-python.python/pythonrc.py', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-7c93f87e08.sock', 'AMENT_PREFIX_PATH': '/home/mi/ros2_ws/install/shoot_goal:/home/mi/ros2_ws/install/demo_python_pkg:/home/mi/vrpn_client_ros2/src/install/vrpn_listener:/opt/ros2/cyberdog:/opt/ros2/galactic', 'ROS_DOMAIN_ID': '42', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CMAKE_MODULE_PATH': '/opt/ros2/cyberdog/share/cyberdog_parameter/cmake', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mi/ros2_ws/build/demo_python_pkg', 'SSH_CONNECTION': '10.0.0.39 51671 10.0.0.67 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'HTTP_PROXY': 'http://127.0.0.1:7890', 'PYTHONPATH': '/home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages:/home/mi/ros2_ws/install/shoot_goal/lib/python3.6/site-packages:/home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages:/opt/ros2/cyberdog/lib/python3.6/site-packages:/opt/ros2/galactic/lib/python3.6/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/mi/vrpn_client_ros2/src/install/vrpn_listener:/opt/ros2/cyberdog:/opt/ros2/galactic'}, 'shell': False}
+[6.095387] (-) TimerEvent: {}
+[6.197472] (-) TimerEvent: {}
+[6.299024] (-) TimerEvent: {}
+[6.400795] (-) TimerEvent: {}
+[6.501827] (-) TimerEvent: {}
+[6.603326] (-) TimerEvent: {}
+[6.704351] (-) TimerEvent: {}
+[6.806374] (-) TimerEvent: {}
+[6.907442] (-) TimerEvent: {}
+[7.008476] (-) TimerEvent: {}
+[7.109471] (-) TimerEvent: {}
+[7.210579] (-) TimerEvent: {}
+[7.311704] (-) TimerEvent: {}
+[7.412804] (-) TimerEvent: {}
+[7.513756] (-) TimerEvent: {}
+[7.531088] (shoot_goal) StdoutLine: {'line': b'running egg_info\n'}
+[7.534543] (shoot_goal) StdoutLine: {'line': b'writing ../../build/shoot_goal/shoot_goal.egg-info/PKG-INFO\n'}
+[7.541585] (shoot_goal) StdoutLine: {'line': b'writing dependency_links to ../../build/shoot_goal/shoot_goal.egg-info/dependency_links.txt\n'}
+[7.542326] (shoot_goal) StdoutLine: {'line': b'writing entry points to ../../build/shoot_goal/shoot_goal.egg-info/entry_points.txt\n'}
+[7.542765] (shoot_goal) StdoutLine: {'line': b'writing requirements to ../../build/shoot_goal/shoot_goal.egg-info/requires.txt\n'}
+[7.543200] (shoot_goal) StdoutLine: {'line': b'writing top-level names to ../../build/shoot_goal/shoot_goal.egg-info/top_level.txt\n'}
+[7.558593] (shoot_goal) StdoutLine: {'line': b"reading manifest file '../../build/shoot_goal/shoot_goal.egg-info/SOURCES.txt'\n"}
+[7.566250] (shoot_goal) StdoutLine: {'line': b"writing manifest file '../../build/shoot_goal/shoot_goal.egg-info/SOURCES.txt'\n"}
+[7.567897] (shoot_goal) StdoutLine: {'line': b'running build\n'}
+[7.568895] (shoot_goal) StdoutLine: {'line': b'running build_py\n'}
+[7.569430] (shoot_goal) StdoutLine: {'line': b'copying shoot_goal/shoot_control.py -> /home/mi/ros2_ws/build/shoot_goal/build/lib/shoot_goal\n'}
+[7.570571] (shoot_goal) StdoutLine: {'line': b'running install\n'}
+[7.576532] (shoot_goal) StdoutLine: {'line': b'running install_lib\n'}
+[7.578844] (shoot_goal) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.580630] (shoot_goal) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[7.581625] (shoot_goal) StdoutLine: {'line': b'copying /home/mi/ros2_ws/build/shoot_goal/build/lib/shoot_goal/shoot_control.py -> /home/mi/ros2_ws/install/shoot_goal/lib/python3.6/site-packages/shoot_goal\n'}
+[7.583075] (shoot_goal) StdoutLine: {'line': b'byte-compiling /home/mi/ros2_ws/install/shoot_goal/lib/python3.6/site-packages/shoot_goal/shoot_control.py to shoot_control.cpython-36.pyc\n'}
+[7.593115] (shoot_goal) StdoutLine: {'line': b'running install_data\n'}
+[7.596879] (shoot_goal) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.607402] (shoot_goal) StdoutLine: {'line': b"removing '/home/mi/ros2_ws/install/shoot_goal/lib/python3.6/site-packages/shoot_goal-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[7.609111] (shoot_goal) StdoutLine: {'line': b'Copying ../../build/shoot_goal/shoot_goal.egg-info to /home/mi/ros2_ws/install/shoot_goal/lib/python3.6/site-packages/shoot_goal-0.0.0-py3.6.egg-info\n'}
+[7.614016] (-) TimerEvent: {}
+[7.615182] (shoot_goal) StdoutLine: {'line': b'running install_scripts\n'}
+[7.621539] (demo_python_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[7.624513] (demo_python_pkg) StdoutLine: {'line': b'writing ../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO\n'}
+[7.625638] (demo_python_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt\n'}
+[7.627106] (demo_python_pkg) StdoutLine: {'line': b'writing entry points to ../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt\n'}
+[7.627986] (demo_python_pkg) StdoutLine: {'line': b'writing requirements to ../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt\n'}
+[7.628703] (demo_python_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt\n'}
+[7.644381] (demo_python_pkg) StdoutLine: {'line': b"reading manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'\n"}
+[7.651163] (demo_python_pkg) StdoutLine: {'line': b"writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'\n"}
+[7.656767] (demo_python_pkg) StdoutLine: {'line': b'running build\n'}
+[7.657592] (demo_python_pkg) StdoutLine: {'line': b'running build_py\n'}
+[7.658261] (demo_python_pkg) StdoutLine: {'line': b'running install\n'}
+[7.658883] (demo_python_pkg) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.659571] (demo_python_pkg) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[7.663596] (demo_python_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[7.664338] (demo_python_pkg) StdoutLine: {'line': b'running install_data\n'}
+[7.667146] (demo_python_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.675081] (demo_python_pkg) StdoutLine: {'line': b"removing '/home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[7.676703] (demo_python_pkg) StdoutLine: {'line': b'Copying ../../build/demo_python_pkg/demo_python_pkg.egg-info to /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg-0.0.0-py3.6.egg-info\n'}
+[7.681512] (demo_python_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[7.714196] (-) TimerEvent: {}
+[7.724825] (shoot_goal) StdoutLine: {'line': b'Installing shoot script to /home/mi/ros2_ws/install/shoot_goal/lib/shoot_goal\n'}
+[7.727059] (shoot_goal) StdoutLine: {'line': b"writing list of installed files to '/home/mi/ros2_ws/build/shoot_goal/install.log'\n"}
+[7.773101] (demo_python_pkg) StdoutLine: {'line': b'Installing hello script to /home/mi/ros2_ws/install/demo_python_pkg/lib/demo_python_pkg\n'}
+[7.774886] (demo_python_pkg) StdoutLine: {'line': b'Installing move script to /home/mi/ros2_ws/install/demo_python_pkg/lib/demo_python_pkg\n'}
+[7.775867] (demo_python_pkg) StdoutLine: {'line': b'Installing sub script to /home/mi/ros2_ws/install/demo_python_pkg/lib/demo_python_pkg\n'}
+[7.778415] (demo_python_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/mi/ros2_ws/build/demo_python_pkg/install.log'\n"}
+[7.814516] (-) TimerEvent: {}
+[7.863156] (shoot_goal) CommandEnded: {'returncode': 0}
+[7.914792] (-) TimerEvent: {}
+[7.945686] (shoot_goal) JobEnded: {'identifier': 'shoot_goal', 'rc': 0}
+[7.959872] (demo_python_pkg) CommandEnded: {'returncode': 0}
+[8.000461] (demo_python_pkg) JobEnded: {'identifier': 'demo_python_pkg', 'rc': 0}
+[8.005459] (-) EventReactorShutdown: {}

@@ -1,0 +1,25 @@
+[6.201s] Invoking command in '/home/mi/ros2_ws/src/demo_python_pkg': PYTHONPATH=/home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/mi/ros2_ws/build/demo_python_pkg/build install --prefix /home/mi/ros2_ws/install/demo_python_pkg --record /home/mi/ros2_ws/build/demo_python_pkg/install.log --single-version-externally-managed
+[7.902s] running egg_info
+[7.907s] writing ../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[7.907s] writing dependency_links to ../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[7.912s] writing entry points to ../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[7.912s] writing requirements to ../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[7.913s] writing top-level names to ../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[7.925s] reading manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[7.932s] writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[7.932s] running build
+[7.933s] running build_py
+[7.934s] running install
+[7.935s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.935s]   setuptools.SetuptoolsDeprecationWarning,
+[7.944s] running install_lib
+[7.951s] running install_data
+[7.951s] running install_egg_info
+[7.958s] removing '/home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg-0.0.0-py3.6.egg-info' (and everything under it)
+[7.959s] Copying ../../build/demo_python_pkg/demo_python_pkg.egg-info to /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg-0.0.0-py3.6.egg-info
+[7.965s] running install_scripts
+[8.083s] Installing hello script to /home/mi/ros2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[8.086s] Installing move script to /home/mi/ros2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[8.089s] Installing sub script to /home/mi/ros2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[8.092s] writing list of installed files to '/home/mi/ros2_ws/build/demo_python_pkg/install.log'
+[8.250s] Invoked command in '/home/mi/ros2_ws/src/demo_python_pkg' returned '0': PYTHONPATH=/home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/mi/ros2_ws/build/demo_python_pkg/build install --prefix /home/mi/ros2_ws/install/demo_python_pkg --record /home/mi/ros2_ws/build/demo_python_pkg/install.log --single-version-externally-managed

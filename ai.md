@@ -3,3 +3,6 @@
 VRPN 动捕数据将被转发为 ROS2 话题
 其中ball为球，tongtong为我们的狗
 然后你可以参考一下别人的shoot_control.py，改成我们能用的模式，你只需要在本地修改就行，后面我会通过git把它转到狗的上面
+
+ros2 pkg create shoot_goal --build-type ament_python --dependencies rclpy
+example_interfaces --license Apache-2.0

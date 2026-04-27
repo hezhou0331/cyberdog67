@@ -1,0 +1,26 @@
+[6.035s] Invoking command in '/home/mi/ros2_ws/src/shoot_goal': PYTHONPATH=/home/mi/ros2_ws/install/shoot_goal/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/shoot_goal build --build-base /home/mi/ros2_ws/build/shoot_goal/build install --prefix /home/mi/ros2_ws/install/shoot_goal --record /home/mi/ros2_ws/build/shoot_goal/install.log --single-version-externally-managed
+[7.725s] running egg_info
+[7.730s] writing ../../build/shoot_goal/shoot_goal.egg-info/PKG-INFO
+[7.730s] writing dependency_links to ../../build/shoot_goal/shoot_goal.egg-info/dependency_links.txt
+[7.731s] writing entry points to ../../build/shoot_goal/shoot_goal.egg-info/entry_points.txt
+[7.732s] writing requirements to ../../build/shoot_goal/shoot_goal.egg-info/requires.txt
+[7.732s] writing top-level names to ../../build/shoot_goal/shoot_goal.egg-info/top_level.txt
+[7.747s] reading manifest file '../../build/shoot_goal/shoot_goal.egg-info/SOURCES.txt'
+[7.754s] writing manifest file '../../build/shoot_goal/shoot_goal.egg-info/SOURCES.txt'
+[7.755s] running build
+[7.756s] running build_py
+[7.760s] copying shoot_goal/shoot_control.py -> /home/mi/ros2_ws/build/shoot_goal/build/lib/shoot_goal
+[7.760s] running install
+[7.761s] running install_lib
+[7.761s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.762s]   setuptools.SetuptoolsDeprecationWarning,
+[7.766s] copying /home/mi/ros2_ws/build/shoot_goal/build/lib/shoot_goal/shoot_control.py -> /home/mi/ros2_ws/install/shoot_goal/lib/python3.6/site-packages/shoot_goal
+[7.770s] byte-compiling /home/mi/ros2_ws/install/shoot_goal/lib/python3.6/site-packages/shoot_goal/shoot_control.py to shoot_control.cpython-36.pyc
+[7.781s] running install_data
+[7.784s] running install_egg_info
+[7.789s] removing '/home/mi/ros2_ws/install/shoot_goal/lib/python3.6/site-packages/shoot_goal-0.0.0-py3.6.egg-info' (and everything under it)
+[7.791s] Copying ../../build/shoot_goal/shoot_goal.egg-info to /home/mi/ros2_ws/install/shoot_goal/lib/python3.6/site-packages/shoot_goal-0.0.0-py3.6.egg-info
+[7.798s] running install_scripts
+[7.890s] Installing shoot script to /home/mi/ros2_ws/install/shoot_goal/lib/shoot_goal
+[7.891s] writing list of installed files to '/home/mi/ros2_ws/build/shoot_goal/install.log'
+[8.022s] Invoked command in '/home/mi/ros2_ws/src/shoot_goal' returned '0': PYTHONPATH=/home/mi/ros2_ws/install/shoot_goal/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/shoot_goal build --build-base /home/mi/ros2_ws/build/shoot_goal/build install --prefix /home/mi/ros2_ws/install/shoot_goal --record /home/mi/ros2_ws/build/shoot_goal/install.log --single-version-externally-managed

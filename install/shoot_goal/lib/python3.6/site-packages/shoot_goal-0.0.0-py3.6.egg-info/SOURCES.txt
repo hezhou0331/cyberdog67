@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/shoot_goal/shoot_goal.egg-info/PKG-INFO
+../../build/shoot_goal/shoot_goal.egg-info/SOURCES.txt
+../../build/shoot_goal/shoot_goal.egg-info/dependency_links.txt
+../../build/shoot_goal/shoot_goal.egg-info/entry_points.txt
+../../build/shoot_goal/shoot_goal.egg-info/requires.txt
+../../build/shoot_goal/shoot_goal.egg-info/top_level.txt
+../../build/shoot_goal/shoot_goal.egg-info/zip-safe
+resource/shoot_goal
+shoot_goal/__init__.py
+shoot_goal/shoot_control.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -41,13 +41,13 @@ class ShootController(Node):
 
         # 机器狗目标点距离球的后方距离
         # 如果机器狗定位点在身体中心，0.3 可能略近，可以根据实际改为 0.35~0.45
-        self.desired_distance = 0.75
+        self.desired_distance = 0.5
 
         # =========================
         # 控制参数
         # =========================
-        self.linear_speed = 0.6             # 最大前进速度 m/s，推球建议不要太快
-        self.angular_gain = 0.8              # 角速度比例系数
+        self.linear_speed = 0.45            # 最大前进速度 m/s，推球建议不要太快
+        self.angular_gain = 0.7              # 角速度比例系数
         self.linear_gain = 0.6               # 距离比例系数
 
         self.position_tolerance = 0.15       # 到达球后方目标点的位置误差
@@ -227,7 +227,7 @@ class ShootController(Node):
         # =====================================================
         if self.state == 'GOTO_BEHIND_BALL':
             # 球后方目标点：沿着球门反方向退 desired_distance
-            desired_x = ball_x - unit_goal_x * self.desired_distance+0.1
+            desired_x = ball_x - unit_goal_x * self.desired_distance+0.05
             desired_y = ball_y - unit_goal_y * self.desired_distance
 
             dx = desired_x - dog_x
