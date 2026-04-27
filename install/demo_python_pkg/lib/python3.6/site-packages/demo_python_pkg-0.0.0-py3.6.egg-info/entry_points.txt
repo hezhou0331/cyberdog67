@@ -1,0 +1,5 @@
+[console_scripts]
+hello = demo_python_pkg.node_helloworld:main
+move = demo_python_pkg.ultrasonic_move:main
+sub = demo_python_pkg.ultrasonic_sub:main
+

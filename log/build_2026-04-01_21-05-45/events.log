@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.001331] (demo_python_pkg) JobQueued: {'identifier': 'demo_python_pkg', 'dependencies': OrderedDict()}
+[0.002438] (demo_python_pkg) JobStarted: {'identifier': 'demo_python_pkg'}
+[0.099321] (-) TimerEvent: {}
+[0.202175] (-) TimerEvent: {}
+[0.303104] (-) TimerEvent: {}
+[0.403962] (-) TimerEvent: {}
+[0.505715] (-) TimerEvent: {}
+[0.606766] (-) TimerEvent: {}
+[0.708372] (-) TimerEvent: {}
+[0.809469] (-) TimerEvent: {}
+[0.910642] (-) TimerEvent: {}
+[1.012395] (-) TimerEvent: {}
+[1.113390] (-) TimerEvent: {}
+[1.214403] (-) TimerEvent: {}
+[1.315313] (-) TimerEvent: {}
+[1.416285] (-) TimerEvent: {}
+[1.518615] (-) TimerEvent: {}
+[1.619625] (-) TimerEvent: {}
+[1.720533] (-) TimerEvent: {}
+[1.831978] (-) TimerEvent: {}
+[1.934172] (-) TimerEvent: {}
+[2.036779] (-) TimerEvent: {}
+[2.138207] (-) TimerEvent: {}
+[2.239136] (-) TimerEvent: {}
+[2.340081] (-) TimerEvent: {}
+[2.441743] (-) TimerEvent: {}
+[2.545081] (-) TimerEvent: {}
+[2.649508] (-) TimerEvent: {}
+[2.754548] (-) TimerEvent: {}
+[2.855788] (-) TimerEvent: {}
+[2.957104] (-) TimerEvent: {}
+[3.058571] (-) TimerEvent: {}
+[3.161903] (-) TimerEvent: {}
+[3.262850] (-) TimerEvent: {}
+[3.364358] (-) TimerEvent: {}
+[3.465506] (-) TimerEvent: {}
+[3.574233] (-) TimerEvent: {}
+[3.675946] (-) TimerEvent: {}
+[3.777891] (-) TimerEvent: {}
+[3.881191] (-) TimerEvent: {}
+[3.982186] (-) TimerEvent: {}
+[4.083086] (-) TimerEvent: {}
+[4.183946] (-) TimerEvent: {}
+[4.285169] (-) TimerEvent: {}
+[4.387009] (-) TimerEvent: {}
+[4.402774] (demo_python_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/demo_python_pkg', 'build', '--build-base', '/home/mi/ros2_ws/build/demo_python_pkg/build', 'install', '--prefix', '/home/mi/ros2_ws/install/demo_python_pkg', '--record', '/home/mi/ros2_ws/build/demo_python_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/mi/ros2_ws/src/demo_python_pkg', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/mi', 'USER': 'mi', 'SSH_CLIENT': '10.0.0.40 56084 22', 'GIT_ASKPASS': '/home/mi/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/extensions/git/dist/askpass.sh', 'LD_LIBRARY_PATH': '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros2/galactic/opt/yaml_cpp_vendor/lib:/opt/ros2/galactic/opt/rviz_ogre_vendor/lib:/opt/ros2/galactic/lib:/opt/ros2/cyberdog/lib', 'BROWSER': '/home/mi/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/bin/helpers/browser.sh', 'SHLVL': '3', 'CYCLONEDDS_URI': 'file:///etc/mi/cyclonedds.xml', 'HOME': '/home/mi', 'TERM_PROGRAM_VERSION': '1.98.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-069f77c3-9a1e-4a95-bab3-fca09d8854e5.sock', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mi/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/extensions/git/dist/askpass-main.js', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_NODE': '/home/mi/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/mi/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/mi/ros2_ws/install:/opt/ros2/cyberdog:/opt/ros2/galactic', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'mi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros2/galactic/lib/aarch64-linux-gnu/pkgconfig:/opt/ros2/galactic/lib/pkgconfig', 'XDG_SESSION_ID': '3', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros2/cyberdog/bin:/home/mi/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/bin/remote-cli:/opt/ros2/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mi/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/mi/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-51963532bc1bd2a7.txt', 'PYTHONSTARTUP': '/home/mi/.vscode-server/data/User/workspaceStorage/45c8a7a9667d8426d89a2a113f9d2b2e/ms-python.python/pythonrc.py', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-7c93f87e08.sock', 'AMENT_PREFIX_PATH': '/home/mi/ros2_ws/install/demo_python_pkg:/opt/ros2/cyberdog:/opt/ros2/galactic', 'ROS_DOMAIN_ID': '42', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CMAKE_MODULE_PATH': '/opt/ros2/cyberdog/share/cyberdog_parameter/cmake', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mi/ros2_ws/build/demo_python_pkg', 'SSH_CONNECTION': '10.0.0.40 56084 10.0.0.67 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages:/home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages:/opt/ros2/cyberdog/lib/python3.6/site-packages:/opt/ros2/galactic/lib/python3.6/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros2/cyberdog:/opt/ros2/galactic'}, 'shell': False}
+[4.487660] (-) TimerEvent: {}
+[4.590790] (-) TimerEvent: {}
+[4.692099] (-) TimerEvent: {}
+[4.793499] (-) TimerEvent: {}
+[4.894822] (-) TimerEvent: {}
+[5.001162] (-) TimerEvent: {}
+[5.102661] (-) TimerEvent: {}
+[5.203549] (-) TimerEvent: {}
+[5.304413] (-) TimerEvent: {}
+[5.408519] (-) TimerEvent: {}
+[5.509471] (-) TimerEvent: {}
+[5.610380] (-) TimerEvent: {}
+[5.711644] (-) TimerEvent: {}
+[5.813024] (-) TimerEvent: {}
+[5.917146] (-) TimerEvent: {}
+[6.018949] (-) TimerEvent: {}
+[6.054498] (demo_python_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[6.058018] (demo_python_pkg) StdoutLine: {'line': b'creating ../../build/demo_python_pkg/demo_python_pkg.egg-info\n'}
+[6.059164] (demo_python_pkg) StdoutLine: {'line': b'writing ../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO\n'}
+[6.060119] (demo_python_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt\n'}
+[6.060940] (demo_python_pkg) StdoutLine: {'line': b'writing entry points to ../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt\n'}
+[6.061910] (demo_python_pkg) StdoutLine: {'line': b'writing requirements to ../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt\n'}
+[6.062522] (demo_python_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt\n'}
+[6.069345] (demo_python_pkg) StdoutLine: {'line': b"writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'\n"}
+[6.079426] (demo_python_pkg) StdoutLine: {'line': b"reading manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'\n"}
+[6.085183] (demo_python_pkg) StdoutLine: {'line': b"writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'\n"}
+[6.086381] (demo_python_pkg) StdoutLine: {'line': b'running build\n'}
+[6.092075] (demo_python_pkg) StdoutLine: {'line': b'running build_py\n'}
+[6.093783] (demo_python_pkg) StdoutLine: {'line': b'creating /home/mi/ros2_ws/build/demo_python_pkg/build\n'}
+[6.095955] (demo_python_pkg) StdoutLine: {'line': b'creating /home/mi/ros2_ws/build/demo_python_pkg/build/lib\n'}
+[6.097021] (demo_python_pkg) StdoutLine: {'line': b'creating /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg\n'}
+[6.097983] (demo_python_pkg) StdoutLine: {'line': b'copying demo_python_pkg/node_helloworld.py -> /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg\n'}
+[6.098760] (demo_python_pkg) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.099507] (demo_python_pkg) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[6.100388] (demo_python_pkg) StdoutLine: {'line': b'copying demo_python_pkg/__init__.py -> /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg\n'}
+[6.100955] (demo_python_pkg) StdoutLine: {'line': b'copying demo_python_pkg/ultrasonic_move.py -> /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg\n'}
+[6.101751] (demo_python_pkg) StdoutLine: {'line': b'copying demo_python_pkg/ultrasonic_sub.py -> /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg\n'}
+[6.102410] (demo_python_pkg) StdoutLine: {'line': b'running install\n'}
+[6.103482] (demo_python_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[6.105391] (demo_python_pkg) StdoutLine: {'line': b'creating /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg\n'}
+[6.106019] (demo_python_pkg) StdoutLine: {'line': b'copying /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/node_helloworld.py -> /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg\n'}
+[6.106518] (demo_python_pkg) StdoutLine: {'line': b'copying /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/__init__.py -> /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg\n'}
+[6.107246] (demo_python_pkg) StdoutLine: {'line': b'copying /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/ultrasonic_move.py -> /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg\n'}
+[6.107975] (demo_python_pkg) StdoutLine: {'line': b'copying /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/ultrasonic_sub.py -> /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg\n'}
+[6.108551] (demo_python_pkg) StdoutLine: {'line': b'byte-compiling /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg/node_helloworld.py to node_helloworld.cpython-36.pyc\n'}
+[6.109264] (demo_python_pkg) StdoutLine: {'line': b'byte-compiling /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg/__init__.py to __init__.cpython-36.pyc\n'}
+[6.110268] (demo_python_pkg) StdoutLine: {'line': b'byte-compiling /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg/ultrasonic_move.py to ultrasonic_move.cpython-36.pyc\n'}
+[6.110729] (demo_python_pkg) StdoutLine: {'line': b'byte-compiling /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg/ultrasonic_sub.py to ultrasonic_sub.cpython-36.pyc\n'}
+[6.111305] (demo_python_pkg) StdoutLine: {'line': b'running install_data\n'}
+[6.112735] (demo_python_pkg) StdoutLine: {'line': b'creating /home/mi/ros2_ws/install/demo_python_pkg/share/ament_index\n'}
+[6.113805] (demo_python_pkg) StdoutLine: {'line': b'creating /home/mi/ros2_ws/install/demo_python_pkg/share/ament_index/resource_index\n'}
+[6.114293] (demo_python_pkg) StdoutLine: {'line': b'creating /home/mi/ros2_ws/install/demo_python_pkg/share/ament_index/resource_index/packages\n'}
+[6.114892] (demo_python_pkg) StdoutLine: {'line': b'copying resource/demo_python_pkg -> /home/mi/ros2_ws/install/demo_python_pkg/share/ament_index/resource_index/packages\n'}
+[6.116153] (demo_python_pkg) StdoutLine: {'line': b'copying package.xml -> /home/mi/ros2_ws/install/demo_python_pkg/share/demo_python_pkg\n'}
+[6.117283] (demo_python_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.119481] (-) TimerEvent: {}
+[6.126971] (demo_python_pkg) StdoutLine: {'line': b'Copying ../../build/demo_python_pkg/demo_python_pkg.egg-info to /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg-0.0.0-py3.6.egg-info\n'}
+[6.130019] (demo_python_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[6.219922] (demo_python_pkg) StdoutLine: {'line': b'Installing hello script to /home/mi/ros2_ws/install/demo_python_pkg/lib/demo_python_pkg\n'}
+[6.221295] (-) TimerEvent: {}
+[6.222560] (demo_python_pkg) StdoutLine: {'line': b'Installing move script to /home/mi/ros2_ws/install/demo_python_pkg/lib/demo_python_pkg\n'}
+[6.223774] (demo_python_pkg) StdoutLine: {'line': b'Installing sub script to /home/mi/ros2_ws/install/demo_python_pkg/lib/demo_python_pkg\n'}
+[6.224621] (demo_python_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/mi/ros2_ws/build/demo_python_pkg/install.log'\n"}
+[6.321545] (-) TimerEvent: {}
+[6.344314] (demo_python_pkg) CommandEnded: {'returncode': 0}
+[6.422760] (-) TimerEvent: {}
+[6.441721] (demo_python_pkg) JobEnded: {'identifier': 'demo_python_pkg', 'rc': 0}
+[6.446233] (-) EventReactorShutdown: {}

@@ -1,0 +1,47 @@
+[4.415s] Invoking command in '/home/mi/ros2_ws/src/demo_python_pkg': PYTHONPATH=/home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/mi/ros2_ws/build/demo_python_pkg/build install --prefix /home/mi/ros2_ws/install/demo_python_pkg --record /home/mi/ros2_ws/build/demo_python_pkg/install.log --single-version-externally-managed
+[6.053s] running egg_info
+[6.056s] creating ../../build/demo_python_pkg/demo_python_pkg.egg-info
+[6.056s] writing ../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[6.057s] writing dependency_links to ../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[6.058s] writing entry points to ../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[6.059s] writing requirements to ../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[6.060s] writing top-level names to ../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[6.067s] writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[6.077s] reading manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[6.083s] writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[6.085s] running build
+[6.090s] running build_py
+[6.091s] creating /home/mi/ros2_ws/build/demo_python_pkg/build
+[6.094s] creating /home/mi/ros2_ws/build/demo_python_pkg/build/lib
+[6.095s] creating /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+[6.095s] copying demo_python_pkg/node_helloworld.py -> /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+[6.096s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.097s]   setuptools.SetuptoolsDeprecationWarning,
+[6.098s] copying demo_python_pkg/__init__.py -> /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+[6.098s] copying demo_python_pkg/ultrasonic_move.py -> /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+[6.099s] copying demo_python_pkg/ultrasonic_sub.py -> /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+[6.100s] running install
+[6.101s] running install_lib
+[6.103s] creating /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg
+[6.103s] copying /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/node_helloworld.py -> /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg
+[6.104s] copying /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/__init__.py -> /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg
+[6.105s] copying /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/ultrasonic_move.py -> /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg
+[6.105s] copying /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/ultrasonic_sub.py -> /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg
+[6.106s] byte-compiling /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg/node_helloworld.py to node_helloworld.cpython-36.pyc
+[6.107s] byte-compiling /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg/__init__.py to __init__.cpython-36.pyc
+[6.108s] byte-compiling /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg/ultrasonic_move.py to ultrasonic_move.cpython-36.pyc
+[6.108s] byte-compiling /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg/ultrasonic_sub.py to ultrasonic_sub.cpython-36.pyc
+[6.109s] running install_data
+[6.110s] creating /home/mi/ros2_ws/install/demo_python_pkg/share/ament_index
+[6.111s] creating /home/mi/ros2_ws/install/demo_python_pkg/share/ament_index/resource_index
+[6.112s] creating /home/mi/ros2_ws/install/demo_python_pkg/share/ament_index/resource_index/packages
+[6.112s] copying resource/demo_python_pkg -> /home/mi/ros2_ws/install/demo_python_pkg/share/ament_index/resource_index/packages
+[6.114s] copying package.xml -> /home/mi/ros2_ws/install/demo_python_pkg/share/demo_python_pkg
+[6.115s] running install_egg_info
+[6.125s] Copying ../../build/demo_python_pkg/demo_python_pkg.egg-info to /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg-0.0.0-py3.6.egg-info
+[6.127s] running install_scripts
+[6.218s] Installing hello script to /home/mi/ros2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[6.220s] Installing move script to /home/mi/ros2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[6.221s] Installing sub script to /home/mi/ros2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[6.222s] writing list of installed files to '/home/mi/ros2_ws/build/demo_python_pkg/install.log'
+[6.345s] Invoked command in '/home/mi/ros2_ws/src/demo_python_pkg' returned '0': PYTHONPATH=/home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/mi/ros2_ws/build/demo_python_pkg/build install --prefix /home/mi/ros2_ws/install/demo_python_pkg --record /home/mi/ros2_ws/build/demo_python_pkg/install.log --single-version-externally-managed

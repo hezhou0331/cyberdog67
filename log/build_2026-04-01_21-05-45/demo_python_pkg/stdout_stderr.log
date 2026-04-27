@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/demo_python_pkg/demo_python_pkg.egg-info
+writing ../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+writing top-level names to ../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mi/ros2_ws/build/demo_python_pkg/build
+creating /home/mi/ros2_ws/build/demo_python_pkg/build/lib
+creating /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+copying demo_python_pkg/node_helloworld.py -> /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  setuptools.SetuptoolsDeprecationWarning,
+copying demo_python_pkg/__init__.py -> /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+copying demo_python_pkg/ultrasonic_move.py -> /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+copying demo_python_pkg/ultrasonic_sub.py -> /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+running install
+running install_lib
+creating /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg
+copying /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/node_helloworld.py -> /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg
+copying /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/__init__.py -> /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg
+copying /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/ultrasonic_move.py -> /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg
+copying /home/mi/ros2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/ultrasonic_sub.py -> /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg
+byte-compiling /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg/node_helloworld.py to node_helloworld.cpython-36.pyc
+byte-compiling /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg/__init__.py to __init__.cpython-36.pyc
+byte-compiling /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg/ultrasonic_move.py to ultrasonic_move.cpython-36.pyc
+byte-compiling /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg/ultrasonic_sub.py to ultrasonic_sub.cpython-36.pyc
+running install_data
+creating /home/mi/ros2_ws/install/demo_python_pkg/share/ament_index
+creating /home/mi/ros2_ws/install/demo_python_pkg/share/ament_index/resource_index
+creating /home/mi/ros2_ws/install/demo_python_pkg/share/ament_index/resource_index/packages
+copying resource/demo_python_pkg -> /home/mi/ros2_ws/install/demo_python_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/mi/ros2_ws/install/demo_python_pkg/share/demo_python_pkg
+running install_egg_info
+Copying ../../build/demo_python_pkg/demo_python_pkg.egg-info to /home/mi/ros2_ws/install/demo_python_pkg/lib/python3.6/site-packages/demo_python_pkg-0.0.0-py3.6.egg-info
+running install_scripts
+Installing hello script to /home/mi/ros2_ws/install/demo_python_pkg/lib/demo_python_pkg
+Installing move script to /home/mi/ros2_ws/install/demo_python_pkg/lib/demo_python_pkg
+Installing sub script to /home/mi/ros2_ws/install/demo_python_pkg/lib/demo_python_pkg
+writing list of installed files to '/home/mi/ros2_ws/build/demo_python_pkg/install.log'
